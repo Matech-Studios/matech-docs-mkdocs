@@ -6,3 +6,18 @@ nav:
 # standard defacto theme - https://github.com/squidfunk/mkdocs-material
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: green
+      accent: orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: green
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
