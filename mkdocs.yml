@@ -3,3 +3,6 @@ site_name: Matech MkDocs Template
 nav:
     - Home: index.md
     - About: about.md
+# standard defacto theme - https://github.com/squidfunk/mkdocs-material
+theme:
+  name: material
