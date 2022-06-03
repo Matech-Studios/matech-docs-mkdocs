@@ -1,5 +1,5 @@
 site_name: Matech MkDocs Template
-#site_url: https://example.com/
+site_url: https://matech-studios.github.io/matech-docs-mkdocs/
 nav:
     - Home: index.md
     - About: about.md
